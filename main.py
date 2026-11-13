@@ -385,13 +385,13 @@ assert_equal(count_sessions(mostly_dancing, "Singing"), 1)
 add_website_css("body", "background-color: #fdf2f8;")
 set_site_information(
     author = "Shaina Berkowitz",
-    description = "A webiste that builds practice schedules for singers and dancers, and tracks goals and progress.",
+    description = "A website that builds practice schedules for singers and dancers, and tracks goals and progress.",
     sources = [
-        "Drafter documentation"
+        "Drafter documentation",
         "Claude AI"
     ],
-    planning = ["CS1 Final Project 0_ Pick a Problem.pdf", "CS1 Final Project 1_ Design.pdf", "CS1 Final Project 2_ Dev & Deploy.pdf"]
-    links = [""]
+    planning = ["CS1 Final Project 0_ Pick a Problem.pdf", "CS1 Final Project 1_ Design.pdf", "CS1 Final Project 2_ Dev & Deploy.pdf"],
+    links = ["https://github.com/shainab-hub/singing-and-dancing-practice"]
 )
 set_website_title("Practice Planner")
 set_website_framed(False)
