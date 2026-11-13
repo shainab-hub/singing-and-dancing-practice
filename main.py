@@ -383,6 +383,16 @@ assert_equal(count_sessions(mostly_dancing, "Dancing"), 3)
 assert_equal(count_sessions(mostly_dancing, "Singing"), 1)
 
 add_website_css("body", "background-color: #fdf2f8;")
+set_site_information(
+    author = "Shaina Berkowitz",
+    description = "A webiste that builds practice schedules for singers and dancers, and tracks goals and progress.",
+    sources = [
+        "Drafter documentation"
+        "Claude AI"
+    ],
+    planning = [""]
+    links = [""]
+)
 set_website_title("Practice Planner")
 set_website_framed(False)
 hide_debug_information()
