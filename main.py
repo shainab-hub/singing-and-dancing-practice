@@ -390,7 +390,7 @@ set_site_information(
         "Drafter documentation"
         "Claude AI"
     ],
-    planning = [""]
+    planning = ["CS1 Final Project 0_ Pick a Problem.pdf", "CS1 Final Project 1_ Design.pdf", "CS1 Final Project 2_ Dev & Deploy.pdf"]
     links = [""]
 )
 set_website_title("Practice Planner")
